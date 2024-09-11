@@ -40,7 +40,7 @@ const MultiLayerParallax = () => {
       ref={ref}
     >
       <motion.h1
-        className=" text-light-900 text-8xl relative z-30 font-serif lg:tracking-widest max-lg:text-7xl max-md:mb-20 md:mb-40 lg:mb-20 2xl:mb-0"
+        className=" text-light-900 text-8xl relative z-30 font-serif lg:tracking-widest max-lg:text-7xl max-md:mb-20 md:mb-40 lg:mb-20 2xl:mb-0 max-sm:mb-40"
         style={{ y: textY, opacity: opacityText }}
       >
         SheGuides
