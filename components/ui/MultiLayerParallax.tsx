@@ -13,7 +13,7 @@ import { cn } from "@/lib/utils";
 const MultiLayerParallax = () => {
   const ref = useRef(null);
   const refView = useRef(null);
-  const { scrollYProgress, scrollY } = useScroll({
+  const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
   });
